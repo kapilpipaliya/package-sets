@@ -2445,6 +2445,15 @@
     "repo": "https://github.com/proclivis/purescript-word.git",
     "version": "v0.4.1"
   },
+  "yarn": {
+    "dependencies": [
+      "arrays",
+      "generics-rep",
+      "strings"
+    ],
+    "repo": "https://github.com/thimoteus/purescript-yarn.git",
+    "version": "v3.0.0"
+  },
   "yargs": {
     "dependencies": [
       "console",
