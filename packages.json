@@ -181,6 +181,24 @@
     "repo": "https://github.com/purescript/purescript-bifunctors.git",
     "version": "v3.0.0"
   },
+  "binary": {
+    "dependencies": [
+      "arrays",
+      "conditional",
+      "foldable-traversable",
+      "integers",
+      "maps",
+      "maybe",
+      "nonempty",
+      "partial",
+      "prelude",
+      "strings",
+      "tuples",
+      "typelevel"
+    ],
+    "repo": "https://github.com/Unisay/purescript-binary.git",
+    "version": "v0.2.9"
+  },
   "bytestrings": {
     "dependencies": [
       "arrays",
@@ -266,6 +284,13 @@
     ],
     "repo": "https://github.com/sharkdp/purescript-colors.git",
     "version": "v4.3.0"
+  },
+  "conditional": {
+    "dependencies": [
+      "console"
+    ],
+    "repo": "https://github.com/purescripters/purescript-conditional.git",
+    "version": "v2.0.0"
   },
   "console": {
     "dependencies": [
