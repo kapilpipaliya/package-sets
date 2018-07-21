@@ -201,6 +201,21 @@
     "repo": "https://github.com/rightfold/purescript-bytestrings.git",
     "version": "v6.0.0"
   },
+  "b64": {
+    "dependencies": [
+      "arraybuffer-types",
+      "either",
+      "encoding",
+      "exceptions",
+      "functions",
+      "partial",
+      "prelude",
+      "stringutils",
+      "typedarray"
+    ],
+    "repo": "https://github.com/menelaos/purescript-b64.git",
+    "version": "v0.0.4"
+  },
   "canvas": {
     "dependencies": [
       "eff",
@@ -2208,6 +2223,16 @@
       "eff"
     ],
     "repo": "https://github.com/purescript/purescript-type-equality.git",
+    "version": "v2.1.0"
+  },
+  "typedarray": {
+    "dependencies": [
+      "arraybuffer-types",
+      "functions",
+      "maybe",
+      "prelude"
+    ],
+    "repo": "https://github.com/jutaro/purescript-typedarray.git",
     "version": "v2.1.0"
   },
   "typelevel": {
