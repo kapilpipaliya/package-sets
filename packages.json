@@ -1033,6 +1033,19 @@
     "repo": "https://github.com/purescript/purescript-integers.git",
     "version": "v3.2.0"
   },
+  "intl": {
+    "dependencies": [
+      "console",
+      "generics-rep",
+      "js-date",
+      "maps",
+      "prelude",
+      "unsafe-coerce",
+      "variant"
+    ],
+    "repo": "https://github.com/coot/purescript-intl.git",
+    "version": "v0.4.2"
+  },
   "invariant": {
     "dependencies": [
       "prelude"
