@@ -1319,6 +1319,29 @@
     "repo": "https://github.com/Thimoteus/purescript-mmorph.git",
     "version": "v3.0.0"
   },
+  "modules": {
+    "dependencies": [
+      "prelude"
+    ],
+    "repo": "https://github.com/TinkerTravel/purescript-modules.git",
+    "version": "v3.0.0"
+  },
+  "money": {
+    "dependencies": [
+      "foldable-traversable",
+      "generics",
+      "globals",
+      "integers",
+      "lists",
+      "math",
+      "modules",
+      "newtype",
+      "prelude",
+      "rationals"
+    ],
+    "repo": "https://github.com/dbaynard/purescript-money.git",
+    "version": "v7.0.1"
+  },
   "monoid": {
     "dependencies": [
       "control",
